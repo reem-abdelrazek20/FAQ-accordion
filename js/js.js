@@ -5,6 +5,8 @@ div.forEach((ele)=>{
     var Try =ele.querySelector(`p`);
     var question=ele.querySelector(`.h2`);
     var button=ele.querySelector(`.click`);
+    Try.style.display="none";
+button.src=plus;
     button.addEventListener(`click`,()=>{
         if(Try.style.display==="none") {Try.style.display="block";
             ;button.src=minus;
@@ -12,6 +14,7 @@ div.forEach((ele)=>{
     });
     question.addEventListener(`click`,()=>{
         if(Try.style.display==="none") {Try.style.display="block";
+                
             ;button.src=minus;
     }else{Try.style.display="none";button.src=plus}})
 })
