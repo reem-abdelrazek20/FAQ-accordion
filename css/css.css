@@ -18,7 +18,10 @@ body{    background: url(../assets/images/background-pattern-desktop.svg) no-rep
 }
 
 
-.bp{     padding: 20px;
+.bp{     padding: 20px;    position: absolute;
+    margin: 0 10px;
+    left: 10px;
+    right: 10px;
     background-color: white;
     width: 700px;border-radius: 20px;
     font-size: 16px;}
