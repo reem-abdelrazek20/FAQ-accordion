@@ -18,13 +18,17 @@ body{    background: url(../assets/images/background-pattern-desktop.svg) no-rep
 }
 
 
-.bp{     padding: 20px;    position: absolute;
+.bp{  
+    padding: 20px;  
+    position: absolute;
     margin: 0 10px;
-
     background-color: white;
-    width: 700px;border-radius: 20px;
+    width: 60%;
+    border-radius: 20px;
     font-size: 16px;}
-#head{display: flex;margin-bottom: 30px}
+#head{
+      display: flex
+      ;margin-bottom: 30px}
 #head img{margin-right: 40px;}
 #head h1 {font-size: 79px;
     font-weight: bolder;}
@@ -42,14 +46,14 @@ width: 400px;display: none;}
     color: var(--Grayishpurple);line-height: 25px;
     width: 400px;}
  @media only screen and (max-width: 768px){
-        .bp{    width: 580px;
+        #head h1 
+    {    font-size: 50px;
     
         }
     }
 
 
 .to-show{display: flex;
-
     align-items: center;
     justify-content: space-between;}
 
