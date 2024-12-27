@@ -41,7 +41,7 @@ body{    background: url(../assets/images/background-pattern-desktop.svg) no-rep
 }
 .hide {margin-bottom: 30px ;font-size: 15px;
 color: var(--Grayishpurple);line-height: 25px;
-width: 400px;display: none;}
+;display: none;}
 .show{margin-bottom: 30px ;font-size: 15px;display: block;
     color: var(--Grayishpurple);line-height: 25px;
     width: 400px;}
